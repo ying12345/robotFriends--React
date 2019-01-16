@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/github.io/robotFriends-React/precache-manifest.4964596b786302bce4130a459243a01e.js"
+  "/robotFriends-React/precache-manifest.3095f74b3f20322a4693357edaccf5fd.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/github.io/robotFriends-React/index.html", {
+workbox.routing.registerNavigationRoute("/robotFriends-React/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
